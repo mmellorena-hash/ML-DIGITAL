@@ -287,7 +287,33 @@
       border-color: var(--beige);
       color: var(--beige);
     }
-    .tags {
+    .offer-callout {
+      max-width: 570px;
+      margin-top: 22px;
+      padding: 18px 20px;
+      border: 1px solid var(--beige);
+      border-radius: 14px;
+      background: rgba(216, 195, 173, .10);
+      color: white;
+    }
+    .offer-callout strong {
+      display: block;
+      margin-bottom: 5px;
+      color: var(--beige);
+      font-size: 18px;
+    }
+    .offer-callout p {
+      color: #eee;
+      font-size: 15px;
+    }
+    .offer-callout a {
+      display: inline-block;
+      margin-top: 10px;
+      color: var(--beige);
+      font-weight: bold;
+      text-decoration: underline;
+      text-underline-offset: 3px;
+    }
       margin-top: 25px;
       display: flex;
       flex-wrap: wrap;
@@ -800,11 +826,12 @@
         Conhecer serviços
       </a>
     </div>
-    <div class="tags" aria-label="Principais serviços">
-      <span class="tag">Captação de clientes</span>
-      <span class="tag">Tráfego pago</span>
-      <span class="tag">Sites que convertem</span>
-    </div>
+    <aside class="offer-callout" aria-label="Oferta de gestão gratuita por 7 dias">
+      <strong>Seus anúncios no ar. Sua gestão por nossa conta por 7 dias.</strong>
+      <p>Experimente nossa gestão de tráfego por 7 dias sem pagar honorários. Você investe somente no orçamento das campanhas.</p>
+      <a href="#contato">Quero começar meus 7 dias grátis</a>
+    </aside>
+
   </div>
   <div class="hero-box">
     <div class="monogram" aria-hidden="true">ML</div>
@@ -1059,6 +1086,7 @@
             <option value="">Selecione uma opção</option>
             <option value="Captação de clientes">Captação de clientes</option>
             <option value="Tráfego pago">Tráfego pago</option>
+            <option value="Teste de 7 dias com gestão gratuita — pago apenas os anúncios">Quero testar: 7 dias de gestão grátis</option>
             <option value="Criação de site">Criação de site</option>
             <option value="Landing page">Landing page</option>
             <option value="Página de vendas">Página de vendas</option>
